@@ -17,9 +17,7 @@ app.use(
 try {
   mongoose
     .connect(
-      "mongodb://localhost:27017/talentbox",
-
-      // "mongodb+srv://root:password123*@cluster0.hxeftjt.mongodb.net/talentbox",
+      "mongodb+srv://root:password123*@cluster0.hxeftjt.mongodb.net/talentbox",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
